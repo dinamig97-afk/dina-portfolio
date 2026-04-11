@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dina | Developer</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #0f0f0f;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 20px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+/* SECTIONS */
+section {
+    max-width: 900px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* PROJECT CARD */
+.project {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project a {
+    color: #4ea1ff;
+    margin-right: 10px;
+}
+
+/* SKILLS */
+.skills li {
+    margin-bottom: 8px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #777;
+}
+</style>
+
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>Dina — Web Developer</h1>
+    <p>I build modern web applications using Python and JavaScript.</p>
+
+    <a href="#projects" class="button">View Projects</a>
+    <a href="#contact" class="button">Contact</a>
+</div>
+
+<!-- ABOUT -->
+<section>
+    <h2>About Me</h2>
+    <p>
+        I'm a beginner developer focused on building real-world web applications.
+        Currently learning backend (Python) and frontend (JavaScript).
+    </p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Interactive Chatbot Web App</h3>
+        <p>
+            Built an interactive chatbot using JavaScript with dynamic UI updates and user input handling.
+        </p>
+        <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+
+        <a href="#">Live Demo</a>
+        <a href="#">GitHub</a>
+    </div>
+
+</section>
+
+<!-- SKILLS -->
+<section>
+    <h2>Skills</h2>
+    <ul class="skills">
+        <li>Python (basic)</li>
+        <li>JavaScript (basic)</li>
+        <li>HTML & CSS</li>
+        <li>Git & GitHub</li>
+    </ul>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your@email.com</p>
+    <p>GitHub: github.com/yourusername</p>
+    <p>Open to remote opportunities in Europe</p>
+</section>
+
+<footer>
+    <p>© 2026 Dina</p>
+</footer>
+
+</body>
+</html>
