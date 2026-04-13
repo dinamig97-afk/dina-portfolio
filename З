@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dina | Web Developer</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Dina</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>I create modern websites</h2>
+    <p>Website Creator & Web Developer</p>
+    <a href="#contact" class="btn">Contact me</a>
+</section>
+
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p class="about">
+        Hi! I'm Dina, a beginner web developer.  
+        I create modern and stylish websites for clients and personal projects.
+    </p>
+</section>
+
+<section class="section">
+    <h2>My Skills</h2>
+    <div class="cards">
+        <div class="card">HTML</div>
+        <div class="card">CSS</div>
+        <div class="card">Website Creation</div>
+    </div>
+</section>
+
+<section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="cards">
+        <div class="card">Landing Page</div>
+        <div class="card">Portfolio Website</div>
+        <div class="card">Business Website</div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact</h2>
+    <a href="https://t.me/yourusername" class="btn">Telegram</a>
+    <a href="mailto:your@email.com" class="btn">Email</a>
+</section>
+
+<footer>
+    <p>© 2026 Dina</p>
+</footer>
+
+</body>
+</html>
